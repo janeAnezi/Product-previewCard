@@ -596,6 +596,12 @@ video {
 .p-3 {
   padding: 0.75rem;
 }
+.p-2 {
+  padding: 0.5rem;
+}
+.pb-2 {
+  padding-bottom: 0.7rem;
+}
 
 .text-left {
   text-align: left;
@@ -615,8 +621,8 @@ video {
 }
 
 .text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+  font-size: 1.575rem;
+  line-height: 1.75rem;
 }
 
 .text-4xl {
@@ -642,7 +648,7 @@ video {
 }
 
 .tracking-widest {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.25em;
 }
 
 .text-red-950 {
@@ -665,4 +671,38 @@ video {
 
 .line-through {
   text-decoration-line: line-through;
+}
+.w-40 {
+  width: 15rem; 
+}
+.w-10 {
+  width: 10rem;
+}
+.h-30 {
+  height: 8rem;
+}
+.ml-4 {
+  margin-left: 1.5rem
+}
+.mt-11 {
+  margin-top: 7rem;
+}
+.mr-4 {
+  margin-right: 2rem;
+}
+.text-green-400 {
+  color: rgb(4, 89, 4);
+}
+.mt-2 {
+   margin-top: 1rem;
+}
+.shadow-2xl	{
+box-shadow: 0 25px 50px -12px rgba(0, 31, 1, 0.25)
+}
+.rounded-l-lg	{
+  border-top-left-radius: 0.5rem; /* 8px */
+  border-bottom-left-radius: 0.5rem;
+}
+.w-full {	
+  width: 100%;
 }

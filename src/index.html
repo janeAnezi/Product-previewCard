@@ -7,21 +7,22 @@
     <script src="https://kit.fontawesome.com/1b5e8873d1.js" crossorigin="anonymous"></script>
     <title>Product preview card</title>
 </head>
-<body class="bg-amber-50 ">
-    <div class="flex items-center flex-wrap">
-        <div>
-            <img src="/images/image-product-desktop.jpg" width="250" alt="A Gabrielle channel Perfume">
-        </div>
-        <div class="bg-white flex-col text-center">
-            <p class="title text-left p-3 tracking-widest text-sm">PERFUME</p>
-            <h1>Gabrielle Essence Eau De Parfume</h1>
-            <p>A floral, solar and volumptious interpretation composed by oliver polge, Perfumer-creator for the house of CHANNEL</p>
-            <h2><span class="text-4xl">$149.99</span> <span class="line-through">$169.99</span></h2>
-
-            <button class="bg-green-950 text-white p-3 rounded-lg">
-                <i class="fa-solid fa-cart-plus fa-bounce"></i>
-                Add to cart
-            </button>
+<body class="bg-amber-50 h-screen flex items-center justify-center font-[Georgia]">
+    <div class="bg-white flex rounded-lg shadow-emerald-700 flex-wrap mt-11 shadow-2xl">
+        <img class="w-40 rounded-l-lg sm:w-full " src="/images/image-product-desktop.jpg" alt="A Gabrielle channel Perfume">
+        
+        <div class="bg-white w-40 rounded-lg md:w-full">
+            <p class="title text-left p-3 tracking-widest text-sm text-gray-400">PERFUME</p>
+            <div class="ml-4">
+               <p class="font-bold text-3xl tracking-wider pb-2">Gbrielle <br> Essence Eau <br>De Parfume</p>
+                <p class="text-sm text-gray-400 pb-2">A floral, solar and volumptious interpretation composed by oliver polge, Perfumer-creator for the house of CHANNEL</p>
+                <h2 class="pb-2"><span class="text-3xl font-bold mr-4 text-green-400">$149.99</span> <span class="line-through text-sm">$169.99</span></h2>
+                <button class="bg-green-950 text-white p-2 rounded-lg w-10 mt-2 text-sm">
+                    <i class="fa-solid fa-cart-plus fa-bounce"></i>
+                    Add to cart
+                </button> 
+            </div>
+            
         </div>
     </div>
 </body>
